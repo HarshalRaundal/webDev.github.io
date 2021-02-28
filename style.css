@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+
+}
+.up {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    padding: 5px;
+    grid-gap:10px;
+    
+}
+.up > div {
+    padding-top: 15px;
+    color: cornsilk;
+    border-radius: 5%;
+    height:60px;
+    margin: 10px;
+}
+header{
+    height:60px;
+    
+}
+
+body {
+    margin :0px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(168, 167, 167);
+    border-radius: 10px solid black;
+}
+.material-icons {
+    vertical-align: middle;
+   
+    
+}
+
+header {
+    text-align: center;
+    margin-top: 10px;
+    background: cornsilk;
+    color:black;
+    
+    
+}
+footer {
+   
+    margin-top: 60px;
+    background: cornsilk;
+    color:black;
+    padding-bottom: 10px;
+    
+}
+
+.row1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+.post {
+    background: rgb(42, 182, 42);
+}
+.upgrade {
+    background: rgb(66, 187, 183);
+}
+.row1 {
+    background: whitesmoke;
+}
+.main {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    padding: 10px;
+    max-height: 475px;
+    
+}
+
+.main > div {
+    
+    
+    background-color: rgb(238, 229, 218);
+    
+}
+
+.image {
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.images {
+    margin-top: 10px;
+    padding:2px;
+    width: 100%;
+    height:150px;
+    object-fit: cover;
+    display: block;
+}
+
+span {
+  color: blue;
+}
+
+.cl1 {
+    padding-left: 10px;
+    text-align: left;
+}
+.cl3 {
+    padding-left: 10px;
+    
+}
+.bottom {
+    
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.name {
+    color: blue;
+}
+
+
+#box {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.tweet {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    
+}
+.top {
+    text-align: left;
+}
+
+#apps {
+    
+    margin: 10px;
+    height:250px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#apps>div {
+    
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: darksalmon;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#cards {
+    box-shadow: 0 4px 8px 0 rgba(28, 6, 224, 0.6);
+    
+}
+
